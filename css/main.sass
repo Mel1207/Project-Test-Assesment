@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap')
+
+*, html 
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+body 
+    height: 100vh
+    background: #F9F9F9
+    font-family: 'Montserrat', sans-serif
+    display: flex
+    align-items: center
+    justify-content: center
+
+.container
+    width: 80%
+    max-width: 1180px
+    margin: auto
+
+    h1 
+        font-size: 30px
+        color: #1e1e1e
+        font-weight: 700
+        // margin-top: 5vh
+
+    h3 
+        font-size: 16px 
+        font-weight: 400
+        margin-bottom: 5vh
+
+        span 
+            padding-left: 3px
+            font-size: 16px
+            color: #FF8D24
+            font-weight: 800
+
+    .d-grid
+        display: grid
+        align-items: center
+        grid-template-columns: 1fr 1fr
+        grid-column-gap: 20px
+
+        .group-1
+            background: #416998
+
+        .group-2
+            background: #4D8379
+
+        .group-container
+            height: auto
+            width: 100%
+            border-radius: 10px
+            padding: 30px 30px 50px 30px
+
+            h5 
+                color: #fff
+                margin-bottom: 2rem
+                font-weight: 600
+
+            .player-list
+                display: grid
+                grid-template-columns: 1fr 1fr 1fr
+                grid-gap: 15px
+                width: 100%
+                height: 100%
+
+                .player-container
+                    width: 100%
+                    height: auto
+                    background: #fff
+                    border-radius: 5px
+                    padding: 15px 0
+
+                    img 
+                        height: 85px
+                        width: 85px
+                        border-radius: 100%
+                        border: 1px solid #1D76A8
+                        display: block
+                        margin: 0 auto 15px auto
+
+                    p 
+                        font-size: 10px
+                        display: block 
+                        text-align: center
+                        line-height: 1rem
+
+                    span 
+                        font-size: 10px 
+                        font-weight: 600
+        
